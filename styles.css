@@ -33,18 +33,27 @@ body{
     grid-template-columns: 50% 50%;
 }
 
-.container__titulo{
+.container__caixa{
+    margin: 0 6em;
+}
+
+.container__caixa__titulo{
     font-size: 28px;
     font-weight: 700;
 }
 
-.container__botao{
+.container__caixa__imagem{
+    margin: 1em 0 2em 0;
+}
+
+.container__caixa__botao{
     background-color: var(--botao-azul);
     border-radius: 5px;
     padding: 1em;
     color: var(--branco-principal);
     display: block;
     text-decoration: none;
+    margin-bottom: 1em;
 }
 
 .botao_secundario{
