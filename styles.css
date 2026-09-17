@@ -87,3 +87,12 @@ body{
 .container__descricao__texto{
     color: var(--cinxa-secundario);
 }
+
+.secundario__botao{
+    display: inline-block;
+    margin-top: 1em;
+}
+
+.container__descricao{
+    padding: 1em;
+}
